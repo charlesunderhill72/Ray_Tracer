@@ -211,7 +211,7 @@ print('\n\nComputing Mandelbrot Set in the specified range...')
 print()
 
 t0 = time.perf_counter()
-Z = -1 * scale_factor * compute_mandelbrot(N, N, x0, x1, y0, y1, 500)
+Z = -1 * scale_factor * (compute_mandelbrot(N, N, x0, x1, y0, y1, 500)).astype('int')
 Z = np.interp(Z, (Z.min(), Z.max()), (0, 1))
 t = time.perf_counter() - t0
 
@@ -356,6 +356,7 @@ plotarr = np.flipud(intens.T)
 f1, ax1 = plt.subplots()
 picture = ax1.imshow(plotarr, interpolation='none', cmap='inferno')
 ax1.axis('off')
+f1.savefig('image.png')
 f1.show()
 
 input("\nPress <Enter> to exit...\n")

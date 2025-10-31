@@ -2,3 +2,6 @@
 *.jpg
 *.png
 *.jpeg
+
+# Ignore system files
+__pycache__
