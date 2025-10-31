@@ -26,6 +26,9 @@ Enter desired values for the text prompts. Refer to the project_paper.pdf file f
 - Rewrite code in C++ for more efficient computation
 - Compute graphics using modern tools
 
+## License
+MIT License. See LICENSE file for details.
+
 ## Citations
 Peitgen, H.-O., Saupe, D., & Barnsley, M. F. (1988). The Science of Fractal Images. Springer-Verlag. 
 
