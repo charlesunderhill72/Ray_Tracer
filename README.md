@@ -16,7 +16,7 @@ A small Python program that computes a small user-specified region of the Mandel
    pip install -r requirements.txt
 
 ### Execution
-cd to the directory containing the ray_tracer.py script and run the program with:
+cd to the directory containing the ```ray_tracer.py``` script and run the program with:
 ```
 python ./ray_tracer.py
 ```
